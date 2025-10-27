@@ -1,3 +1,5 @@
+import Dashboard from '../components/Dashboard';
+import Auth from '../components/Auth';
 import { mockBackend } from '../api/mockBackend';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -42,7 +44,7 @@ const Index = () => {
 
       {/* Backend Demo Section - SIMPLIFIED */}
       <section className="container mx-auto px-4 py-16">
-        <Card className="p-8 border-2 border-green-500 bg-green-50">
+        <Card className="p-8 border-2 border-blue-300 bg-blue-50">
           <h2 className="text-3xl font-bold text-center text-foreground mb-6">
             🚀 Backend API Demo
           </h2>
